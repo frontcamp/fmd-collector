@@ -17,6 +17,32 @@ Key project documents
 - Architecture: `docs/ARCHITECTURE.md`
 
 
+Development workflow
+--------------------
+
+- Human-directed, stage-gated, spec-driven development with incremental implementation:
+    * The user defines the scope, topic, and goal.
+    * The agent assists iteratively within the defined topic.
+- Project stages (*1):
+    * documenting project idea and concept
+    * documenting project structure
+    * documenting project launch modes, configuration, and contracts
+    * creating defined structure file(s) with brief internal descriptions (*2)
+    * defining application entry point, flow, and environment
+    * defining global constants and variables
+    * defining interfaces and APIs (stub functions/methods)
+    * pair coding implementation: the user says what to do; the agent does it
+    * checking and debugging
+    * planning further development
+- The above stages are not a mandatory sequence; transitions between any stages are allowed.
+- Do only what is requested, nothing more.
+
+*1 - If the user doesn't know where to start or how to proceed, suggest these workflow stages or the next appropriate stage.
+*2 - Depending on the file format, for example:
+    + document (.md, .txt) - title and brief description;
+    + Python (.py) - relative project filepath and a few lines describing its purpose;
+    + configuration (.ini, .cfg) - a few commented lines describing target and purpose.
+
 Development rules
 -----------------
 
