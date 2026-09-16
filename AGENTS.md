@@ -30,6 +30,7 @@ Key project documents
 - Introduction: `README.md`
 - Requirements: `docs/SPECIFICATIONS.md`
 - Architecture: `docs/ARCHITECTURE.md`
+- Agent skills: `skills/*`
 
 
 Development workflow
@@ -66,6 +67,7 @@ Development rules
 - Resolve the task from the immediate code context whenever possible.
 - Read the relevant project documentation only when additional context is required.
 - Do not inspect unrelated files unless required to resolve the task.
+- If a `<skill-name>` is mentioned in the task, read and follow the corresponding `skills/<skill-name>/SKILL.md`.
 
 ### task execution
 
