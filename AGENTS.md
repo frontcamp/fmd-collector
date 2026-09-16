@@ -2,6 +2,20 @@
 Agent instructions
 ==================
 
+Author: Maksym Plaksin <maxim.plaksin@gmail.com>
+Revision: 2026-09-16 04:45
+
+Synopsis: AI-assisted development under human control.
+
+Design principles:
+
+- moving from the general to the specific;
+- dividing work into meaningful stages;
+- clear and controlled changes.
+
+Cost: less automation, slower development.
+Benefit: full control over the AI agent and the project.
+
 
 Project info
 ------------
@@ -13,6 +27,7 @@ Project info
 Key project documents
 ---------------------
 
+- Introduction: `README.md`
 - Requirements: `docs/SPECIFICATIONS.md`
 - Architecture: `docs/ARCHITECTURE.md`
 
