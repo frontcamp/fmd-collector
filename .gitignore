@@ -1,4 +1,7 @@
-.codex/
+# project
+/data/sources/
+
+# python
 __pycache__/
 *.log
 *.pyc
